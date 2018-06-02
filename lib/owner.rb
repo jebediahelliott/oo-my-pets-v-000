@@ -7,7 +7,7 @@ class Owner
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
     self.class.all << self
-
+    @species = "human"
   end
 
   def self.all
@@ -22,8 +22,5 @@ class Owner
     self.all.clear
   end
 
-  def species
-    
-  end
 
 end
